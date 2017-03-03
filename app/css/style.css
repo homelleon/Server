@@ -1,0 +1,22 @@
+body {
+  color: black; }
+
+a {
+  color: blue; }
+
+.inner {
+  padding: 5px;
+  margin: 5px; }
+
+.header .inner {
+  background-color: red;
+  color: green; }
+
+.content .inner {
+  background-color: blue; }
+
+.side .inner {
+  background-color: green; }
+
+.footer .inner {
+  background-color: pink; }
