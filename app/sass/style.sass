@@ -32,9 +32,7 @@ a
 .wrapper
 	background: url(/img/wallpaper.JPG) 100% 100% no-repeat;
 	background-size: cover;
-	//background-repeat: round;
 	background-position: center;
-	//background: linear-gradient(to top, #fefcea, green);
 	margin: 0px;
 	
 .side-container
@@ -57,14 +55,15 @@ a
 	
 .header
 	float: left;
-	margin-bottom: 10px;
 	width: 100%;
 	
 .header .inner
-	background-color: $contentBoxColor;
+	background-color: $footerColor;
 	color: green;
-	min-height: 70px;
-	
+	min-height: 100px;
+	box-shadow: inset 5px 5px 50px rgba(0,0,0,0.5);
+	border-radius: 4px 4px 0px 0px;
+	margin-bottom: 0px;
 
 .page
 	float: left;
@@ -106,7 +105,7 @@ a
 	min-height: 80px;
 	width: 100%;
 	float: left;
-	padding: 10px;
+	padding: 20px;
 	
 .foot-navigation
 	min-height: 50px;

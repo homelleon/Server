@@ -19,8 +19,8 @@ window.onload = function () {
 			this.style.color = "rgb(10,0,0)";
 			var self = this;
 			function returnBack() {
-				self.style.color = "red";
-				self.style.backgroundColor = "blue";
+				self.style.color = "";
+				self.style.backgroundColor = "";
 			}
 			setTimeout(returnBack, 100);
 		};
@@ -46,8 +46,8 @@ window.onload = function () {
 			this.style.border = "2px solid blue";
 			var self = this;
 			function returnBack() {
-				self.style.color = "white";
-				self.style.border = "2px solid white";
+				self.style.color = "";
+				self.style.border = "";
 			}
 			setTimeout(returnBack, 100);
 		}
